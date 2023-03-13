@@ -547,39 +547,39 @@ section#portfolio ul.folio-list li h3.entry-title {
 /* ------------------------------------------------
     About
 ------------------------------------------------ */
-section#about-us .primary .row .first {
+section#publications .primary .row .first {
     margin-right: 35px;
 }
-section#about-us .primary ol {
+section#publications .primary ol {
     margin: 25px 0 25px 0;
     padding: 0;
 }
-section#about-us .primary ol li {
+section#publications .primary ol li {
     margin-bottom: 10px;
 }
-section#about-us .primary .title {
+section#publications .primary .title {
     font-weight: bold;
 }
-section#about-us .primary ul.the-team {
+section#publications .primary ul.the-team {
     margin: 25px 0 25px 0;
     padding: 0;
     list-style: none;
 }
-section#about-us .primary ul.the-team li {
+section#publications .primary ul.the-team li {
     float: left;
     width: 290px;
     height: 150px;
 }
-section#about-us .primary ul.the-team li a {
+section#publications .primary ul.the-team li a {
     color: #3B3B3B;
 }
-section#about-us .primary ul.the-team li a:hover,
-section#about-us .primary ul.the-team li a:focus,
-section#about-us .primary ul.the-team li a:active {
+section#publications .primary ul.the-team li a:hover,
+section#publications .primary ul.the-team li a:focus,
+section#publications .primary ul.the-team li a:active {
     color: #285935;
 }
 
-section#about-us .primary ul.the-team li .thumbnail {
+section#publications .primary ul.the-team li .thumbnail {
     position: relative;
     float: left;
     background: url(../images/thumb-bg.png) no-repeat;
@@ -587,25 +587,25 @@ section#about-us .primary ul.the-team li .thumbnail {
     height: 150px;
     margin-right: 12px;
 }
-section#about-us .primary ul.the-team li .thumbnail img {
+section#publications .primary ul.the-team li .thumbnail img {
     position: absolute;
     top: 19px;
     left: 18px;
 }
-section#about-us .primary ul.the-team li p {
+section#publications .primary ul.the-team li p {
     font-size: 14px;
     line-height: 20px;
     margin: 5px 0 0 0;
 }
-section#about-us .primary ul.the-team li p.mname {
+section#publications .primary ul.the-team li p.mname {
     font-family: "MerriweatherBold", Serif;
     margin: 10px 0 0 0;
 }
-section#about-us .primary ul.the-team li.odd {
+section#publications .primary ul.the-team li.odd {
     margin-right: 35px;
 }
 
-section#about-us aside .download-btn {
+section#publications aside .download-btn {
     background: url(../images/btn-bg.png);
     display: block;
     width: 250px;
@@ -628,18 +628,18 @@ section#about-us aside .download-btn {
 /* ---------------------------------------------------
     Contact
 ----------------------------------------------------- */
-section#contact .primary form {
+section#download .primary form {
     width: 700px;
     background: url(../images/form-bg.png);
     margin: 35px 0 25px 0;
     padding: 50px 40px 50px 40px;
 }
-section#contact .primary form p {
+section#download .primary form p {
 	font-family: "MerriweatherBold", Serif;
     font-size: 14.5px;
 	color: #046416;
 }
-section#contact .primary form label {
+section#download .primary form label {
     display: block;
     font-family: "MerriweatherBold", Serif;
     font-size: 14px;
@@ -647,12 +647,12 @@ section#contact .primary form label {
     margin: 0 0 5px 0;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
 }
-section#contact .primary form .required {
+section#download .primary form .required {
     color: #046416;
 }
-section#contact .primary form input,
-section#contact .primary form select,
-section#contact .primary form textarea {
+section#download .primary form input,
+section#download .primary form select,
+section#download .primary form textarea {
     margin-bottom: 20px;
 	padding: 9px 10px;
     color: #6A6969;
@@ -666,20 +666,20 @@ section#contact .primary form textarea {
     -webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .1);
     box-shadow:inset 0 1px 3px rgba(0, 0, 0, .1);
 }
-section#contact .primary form input.checkbox {
+section#download .primary form input.checkbox {
     position: relative;
     top: 7px;
 }
-section#contact .primary form textarea {
+section#download .primary form textarea {
     height: 225px;
     margin-bottom: 0;
 }
-section#contact .primary form input:focus,
-section#contact .primary form select:focus,
-section#contact .primary form textarea:focus {
+section#download .primary form input:focus,
+section#download .primary form select:focus,
+section#download .primary form textarea:focus {
 	background: #F0F0F0;
 }
-section#contact .primary form input.button {
+section#download .primary form input.button {
    	height: 38px;
 	margin: 5px 0;
 	background: #1F8532 url(../images/btn-bg.png);
@@ -694,35 +694,35 @@ section#contact .primary form input.button {
     -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
     -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
 }
-.ie7 section#contact .primary form input.button {
+.ie7 section#download .primary form input.button {
     padding: 0 2px;
 }
 #name, #email, #affiliation, #intendeduse, #license {
 	width: 675px;
 }
 
-section#contact aside .social li a {
+section#download aside .social li a {
     padding-left: 35px;
 }
-section#contact aside .social li.facebook a {
+section#download aside .social li.facebook a {
     background: url(../images/social/facebook.png) no-repeat left 11px;
 }
-section#contact aside .social li.googleplus a {
+section#download aside .social li.googleplus a {
     background: url(../images/social/googleplus.png) no-repeat left 11px;
 }
-section#contact aside .social li.twitter a {
+section#download aside .social li.twitter a {
     background: url(../images/social/twitter.png) no-repeat left 11px;
 }
-section#contact aside .social li.dribble a {
+section#download aside .social li.dribble a {
     background: url(../images/social/dribble.png) no-repeat left 11px;
 }
-section#contact aside .social li.linkedin a {
+section#download aside .social li.linkedin a {
     background: url(../images/social/linkedin.png) no-repeat left 11px;
 }
-section#contact aside .social li.delicious a {
+section#download aside .social li.delicious a {
     background: url(../images/social/delicious.png) no-repeat left 11px;
 }
-section#contact aside .social li.flickr a {
+section#download aside .social li.flickr a {
     background: url(../images/social/flickr.png) no-repeat left 11px;
 }
 
